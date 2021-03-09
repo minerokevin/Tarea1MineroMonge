@@ -1,3 +1,6 @@
+# ERR3 -1.5 Su error 404 puede darse cuando pasan strings. Vea su test donde
+# al pasar " " se da el error 404 y eso no es lo esperado " " sigue siendo un
+# string
 import re  # librería de operaciones de expresión regular
 
 # Función que evalúa si un parámetro está entre A-Z y si es un solo carácter

@@ -57,7 +57,8 @@ def test_check_char_c():
 # Func. que verifica que al ingresar uno o más elementos que no sean ni
 # caracteres ni strings a check_char() esta devuelve el código de error "404"
 
-
+# NOTA: Si bien su mètodo esta mal hecho, el test que lo acompaña si esta bien
+# y por esa razòn no le bajo puntos
 def test_check_char_d():
     retorno = Métodos.check_char(" ")  # Se evalúa con un espacio vacío.
     assert retorno == "404"  # El valor esperado es el código de error "404".
